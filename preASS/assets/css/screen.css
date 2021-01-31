@@ -83,3 +83,23 @@ body {
 	margin-right: 20px;
 	margin-left: 20px;
 }
+
+.alert{
+	
+	background-color: #AA081F;
+	color: white;
+	font-weight: bold;
+
+	padding: 15px;
+	border-radius: 20px;
+}
+
+h2, h3, h4
+{
+	background-color: black;
+	color: #D5C100;
+	font-weight: bold;
+
+padding: 7.5px;
+	border-radius: 20px;
+}
