@@ -1,0 +1,308 @@
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/ */
+/* Start of "Micro clearfix" */
+
+.cf {
+  zoom: 1;
+}
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+ 
+.container{
+  /*1534*/
+  max-width:80vw;
+  /*background: url("grid.png");*/
+  border:1px solid #000;
+  margin:20px auto;
+  background-repeat: repeat-y;
+}
+body
+{
+   
+  background-image: url("disney_background.jpg");
+    background-attachment: fixed;
+     background-repeat: no-repeat, repeat;
+    background-position: center;
+  background-color:  RGB( 105, 142, 191); 
+background-blend-mode: screen;
+font-size: 1.2em;
+ text-align:center;
+ letter-spacing: 2px;
+font-family: 'Liu Jian Mao Cao', cursive;
+    color:  rgb( 28, 28, 38);
+}
+
+
+ 
+
+
+li a:hover {
+background-color: rgba(97, 51, 158, 0.397);
+  border-radius: 25px;
+}
+p
+  {
+    background-color: rgba(59, 64, 63, 0.70);
+   border-radius: 2.60416667%;
+   color: rgb( 28, 28, 38);
+ width:75%;
+   text-align: center;
+   display: inline-block;
+      color: whitesmoke;
+    text-shadow: 2.5px 2.5px black;
+  }
+
+  h2
+  {
+      text-shadow: 2px 2px black;
+    margin-right: 25px;
+    margin-left: 5px;
+    padding: 5px;
+   background-color: rgba(242, 213, 187, 0.45);
+   border-radius: 25px;
+   border: 8px solid rgba(20, 42, 166, .432);
+   text-align: center;
+   display: inline-block;
+    
+  }
+ .table
+  {
+    background-color: rgba(242, 213, 187, 0.267);
+   border-radius: 25px;
+
+
+   text-align: center;
+   display: inline-block;
+ 
+  }
+  table, th, td {
+ border: 8px solid rgba(20, 42, 166, .432);
+  padding: 8px;
+      background-color:  rgba(242, 213, 187, 0.45);
+}
+    
+  
+
+  #logoHead
+  {
+    width: 77.314211%;
+    height: 47.327249%;
+    border-radius: 10%;
+    max-width: 100%;
+
+  }
+  #interior
+  {
+    opacity: .80;
+    border-radius: 10%;
+  }
+  #launch
+  {
+    top: 0;
+    left: 0;
+    opacity: .75;
+    border-radius: 10%;
+  }
+  #logo2
+  {
+    margin: left 0:
+  }
+  
+  #capsule
+  {
+    opacity: .75;
+    border-radius: 10%;
+  }
+  #hover
+  {
+    opacity: .75;
+    border-radius: 10%;
+  }
+
+hr
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 1400px;
+  border: 2.5px dotted rgba(61, 4, 94, 0.582);
+ border-radius: 25px;
+}
+ul.cargo
+{
+list-style-type: none;
+  margin: 0;
+
+  overflow: hidden;
+  
+  background-color: rgba(242, 213, 187, 0.45);
+
+  border-radius: 25px;
+  display: block;
+}
+.sub_con {
+  font: .8;
+  display: flex;
+  justify-content: center;
+}
+
+
+b #logo2
+{
+  align-content: center;
+}
+#myBtn
+{
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  background-color: rgba(242, 213, 187, 0.548);
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+  transition: background-color .3s;
+
+  border: 8px solid rgba(20, 42, 166, .432);
+   
+  z-index: 1000;
+}
+div.headWrapper
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    
+  width: 77.314211%;
+    height: 47.327249%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+h2.overview
+{
+  width: 400px;
+}
+ 
+  
+
+li.home{
+
+
+color: #fff;
+
+font-size: 25px;
+}
+#contact
+{
+background-color: rgba(111, 184, 197, 0.068);
+}
+#contact p{
+  background-color: rgba(111, 184, 197, 0.068);
+}
+#contact p:hover
+{
+background-color:  rgba(20, 42, 166, .432);
+}
+#history_p:hover
+{
+background-color: rgba(97, 51, 158, 0.397);
+}
+ul.cargo
+{
+      background-color: rgba(242, 213, 187, 0.30);
+}
+#space_banner img
+{
+   
+margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    width: 41.555557%;
+    
+    color: whitesmoke;
+    
+}
+#home_con:hover p
+{
+background-color: rgba(97, 51, 158, 0.397);
+}
+#contact
+{
+    background-color: rgba(59, 64, 63, 0.70);
+   border-radius: 25px;
+   color: rgb( 28, 28, 38);
+   width: 1000px;
+   text-align: center;
+   display: inline-block;
+      color: whitesmoke;
+    text-shadow: 2.5px 2.5px black;
+}
+#contact:hover p
+{
+background-color: rgba(97, 51, 158, 0.397);
+}
+
+ul
+{
+ 
+  margin: 0;
+
+  overflow: hidden;
+
+
+
+  border-radius: 25px;
+  display: block;
+
+color: rgb( 28, 28, 38);
+ 
+  flex-wrap: wrap;
+  
+}
+
+#content1 
+{
+  float: left;
+  margin-left: 8.27900913%;
+   border-radius: 1.62972621%;
+   width:75%;
+
+   text-align: center;
+   display: inline-block;
+      text-shadow: 06518905% px 06518905% px whitesmoke;
+      font-weight: bold;
+}
+#content2
+{
+  float: right;
+   border-radius: 1.62972621%;
+   width:75%;
+
+   text-align: center;
+   display: inline-block;
+      text-shadow: .06518905% 06518905% px whitesmoke;
+      font-weight: bold;
+      margin-right: 8.27900913%;
+}
