@@ -1,0 +1,142 @@
+  <header>
+    <!-- Main navigation -->
+    <nav class="primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+    </nav>
+     <style>
+      .headshot {
+        max-width: 60%;
+        height: auto;
+        border-radius: 10px;
+      }
+    </style>
+  </header>
+  <!-- Main -->
+  <main itemscope itemtype="http://schema.org/Person">
+    <h1>Brian Mullen</h1>
+    <section id="about">
+      <h2>Personal details</h2>
+      <img class ="headshot" itemprop="image" src="brian_sing.jpeg" alt="Brian Mullen">
+      <p itemprop="description">Statement of Intent</p>
+      <dl>
+        <dt>Name</dt>
+        <dd itemprop="name">
+          <span itemprop="givenName">Brian</span> <span itemprop="familyName">Mullen</span>
+        </dd>
+        <dt>Date of birth</dt>
+        <dd itemprop="birthDate"><time datetime="1976-10-12">03/09/1987</time></dd>
+        <dt>Nationality</dt>
+        <dd itemprop="nationality">American</dd>
+        <dt>Location</dt>
+        <dd itemprop="homeLocation">Arkansas</dd>
+        <dt>Telephone</dt>
+        <dd>
+          <a itemprop="telephone" href="tel:555.555.5555">870.917.8885</a>
+        </dd>
+        <dt>Email</dt>
+        <dd>
+          <a itemprop="email" href="mailto:email@mail.com">bcmullendev@gmail.com</a>
+        </dd>
+        <dt>Address</dt>
+
+        <dd itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        
+          <span itemprop="addressLocality">Sheridan</span>
+        
+          <span itemprop="addressCountry">USA</span>
+        </dd>
+
+      </dl>
+      <ul class="related-links">
+        <li><a itemprop="url" rel="me" href="https://github.com/bcmullen">github</a></li>
+        <li><a itemprop="url" rel="me" href="https://www.linkedin.com/in/brianmullen87/">linkedin</a></li>
+        <li><a itemprop="url" href="brian_mullen_resume.pdf" download>pdf resume</a></li>
+      </ul>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li class="skill">HTML</li>
+        <li class="skill">CSS</li>
+        <li class="skill">Java</li>
+        <li class="skill">Adobe Suite</li>
+          <li class="skill">Version Control</li>
+      </ul>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <!-- current job -->
+      <article class="job">
+        <h3 itemprop="jobTitle">Customer Service Specialist</h3>
+        <div itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          <span itemprop="name">MAZZIO'S ITALIAN EATERY</span>
+          <span> June 2005- September 2009</span>
+          <p itemprop="description">Created content for client blogs and social
+media and increased traffic by 25%.
+Managing incoming customer calls.
+Assuring outstanding customer service.
+This included front counter food delivery
+and checkout service which was accurate
+and efficient.<br><br>
+Providing focused service to individual
+customers.<br><br>
+Building relationships with customers</p>
+          <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+          <a itemprop="url" href="https://www.mazzios.com/">Mazzio's Website</a>
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="addressLocality">Sheridan, AR, USA</span>
+          </span>
+          </span>
+        </div>
+      </article>
+      <!-- Previous Jobs - Notice Slightly Different Format-->
+      <article class="job" itemscope itemtype="http://schema.org/Event/Job">
+        <h3 itemprop="name">Owner | Operator,</h3>
+          <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+          <span itemprop="name">BRIAN MULLEN MUSIC</span>
+          <a itemprop="url" href="https://www.facebook.com/brianmullenonline">Official Brian Mullen Music Facebook</a>
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="addressLocality">Anywhere,USA</span>
+          </span>
+          </span>
+          <span itemprop="startDate" content="2006-02-21T20:00">February 2006</span>
+          <span itemprop="endDate" content="2009-02-21T20:00">February 2009</span>
+        <p itemprop="description">Managing band members. I am responsible for recruiting, hiring,
+        terminations, and replacements of my band members.<br><br>
+Marketing and promoting myself and my band. Coordinating tour schedule.<br><br>
+Finance manager. I negotiate show booking fees and compensate band members.<br><br>
+Networking with other artists, including collaborating and writing with published songwriters.</p>
+      </article>
+      <article class="job" itemscope itemtype="http://schema.org/Event/Job">
+        <h3 itemprop="name">Web Developer</h3>
+          <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+          <span itemprop="name">BC MULLEN DEV</span>
+          <a itemprop="http://bcmullendev.com/" href=>BC Mullen Dev Website</a>
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="addressLocality">Sheridan, AR, USA</span>
+          </span>
+          </span>
+          <span itemprop="startDate" content="2004-01-21T20:00">April 2009</span>
+          <span itemprop="endDate" content="2006-02-21T20:00"> - Present</span>
+        <p itemprop="description">Freelance web developer.  </p>
+      </article>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <article class="certificate" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+        <h3 itemprop="description"><abbr title="Master of Science">BA</abbr>Web Design and Development</h3>
+          <span itemprop="name">University of Arkansas at Little Rock</span>
+          <span itemprop="location" itemscope>Little Rock, AR, USA</span>
+          <span>2017-2022</span>
+      </article>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div id="copyright">
+      &copy; company. All rights reserved.
+    </div>
+  </footer>
