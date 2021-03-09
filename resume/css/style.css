@@ -260,4 +260,102 @@ textarea {
     page-break-after: avoid;
   }
 }
+body {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.container
+{
+  margin:0 auto;
+  
+}
 
+nav.primary
+{
+  display: grid;
+  grid-template-columns: repeat(4,2fr);
+}
+
+.headshot {
+  margin-left: auto;
+  margin-right: auto;
+        
+        max-width:100%;
+  height:auto;
+   display: block;
+   border-radius: 10px;
+}
+      
+      
+main{
+  padding: 1px 20px;
+}
+
+main h1
+{
+  
+  justify-content: center;
+  text-align: center;
+  font-weight: 900;
+  font-variant: small-caps;
+  display: flex;
+  flex-direction: row;
+}
+
+main h1:before, main h1:after {
+  background-color: #222;
+  flex-grow: 1;
+  height: 1px;
+  position: relative;
+  top: 0.75em;
+  content: '\a0';
+}
+main h1:before
+{
+  margin-right:10px;
+}
+main h1:after
+{
+  margin-left: 10px;
+}
+
+.container
+{
+  border-radius: 10px;
+  max-width:720px;
+  margin:0 auto;
+  background:  rgba(81, 168, 219, .70);
+border-style: solid;
+border-width: 3px;
+  border-color: #270066;
+}
+
+nav.primary{
+ 
+  display:grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  /* --- Using Repeat Keyword ---*/
+  grid-template-columns: repeat(4,1fr);
+  padding:20px 20px 0px 20px;
+}
+
+nav a:link, nav a:visited{
+  border:1px solid #000;
+  padding:8px 16px;
+  text-align:center;
+  text-decoration:none;
+  color:#222222;
+  text-transform:uppercase;
+  font-size:.75em;
+  background:#000C78;
+  transition: background-color .5s ease;
+  color:#fff;
+}
+
+nav a:hover{
+   background:#270066;
+   
+}
+p
+{
+  font-weight: bold;
+}
