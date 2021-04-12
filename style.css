@@ -1,0 +1,17 @@
+body
+{
+    font-family: 'Rock Salt', cursive;
+}
+.box
+{
+    list-style: none;
+    padding: 30%;
+    margin-top: 0;
+  background-color:rgba(46, 172, 251, .50);
+}
+h1
+{
+    color: #FFF;
+    margin-bottom: 0;
+    background-color: #004B70;
+}
